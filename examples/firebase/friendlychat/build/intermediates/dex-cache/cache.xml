@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.0_f25a79a105af03ea2d2e54a854fbd4ef6a69fee4.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/and-nd-firebase/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -27,6 +36,51 @@
         revision="24.0.1"
         sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
         <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/and-nd-firebase/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.0_3cebc6081ee866e19e4f97e7f1a88bff93d4bff8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.6.1_da4cd81a1106b96381845a9fa388921bb8b3900a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_8867d8bbad78fb1fbebe91807d97fc5bb8f12d61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.0_8c5fefbc6e1ba317a5ac9f6c2b778dc118511a59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_60863fde199fcdf26fb8102c617135af4ec68804.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.0_2b778a244367b82c7e7ca5a6fc747248e317fffb.jar" />
     </item>
     <item
         is-multidex="false"
@@ -57,6 +111,33 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.6.1_ade966d37b129747c1630433d35aa8c6f3077d18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_f71a9ecfe5463c1d6b5842fcf2c170c5fe11d33d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.0_dbf38ceb23205117ca6581f1a880ffb998533137.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/and-nd-firebase/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.4.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -66,21 +147,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/and-nd-firebase/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
-        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/and-nd-firebase/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_0ce3dc8c8a845e48ac4a9d3000a1767109cbe796.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/norrisa/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.1"
         sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
         <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/and-nd-firebase/app/build/intermediates/pre-dexed/debug/glide-3.6.1_7ff778fe47cd0f42ce56917dcfbe116195762690.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/and-nd-firebase/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/and-nd-firebase/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_0ce3dc8c8a845e48ac4a9d3000a1767109cbe796.jar" />
     </item>
     <item
         is-multidex="false"
@@ -111,6 +192,78 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_bd7d896fbe353146d1f03fe191eb398d450b009c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.0_381a554c3c25317bfb057a6be2f976fc2422051a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.0_7cc06cac1b6035993b6662053cdfc21d17b3a71b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.6.1_f983adc5d1fde4141c1145bd9893ebb29d8de620.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ac8365c87591065db07f7bac8551504504832cd4">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.6.1_23814a81e3dd820fc7c4ef4e2732cca2a3fefc07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.0_816c7e11a02f035ae7086f7698c1633c804bf195.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.6.1_eb3463b05daac02e58d8f2beb3f1e2e147fa9701.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.0_2f3e086a599ab14b4343f696279b913250c5aa9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/norrisa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
         jumboMode="false"
         optimize="true"
@@ -120,12 +273,57 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.0_e5cad5f091d254b97a9036565228c07963cff24f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.6.1_45c1073f19786701775f6230e186662a02452372.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.0_8a6ca596adee15588e19724692261b692d40bf03.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/and-nd-firebase/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.1"
         sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
         <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/and-nd-firebase/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_1e39e0a62f175bdfa83a285b85e4e531c6bb37ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.0_e3f7c8719daf03a5c60cc2ec6b5fe7484edee768.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.0_8b281c2282d35266e361dbe6ae60220c2f124619.jar" />
     </item>
     <item
         is-multidex="false"
@@ -147,6 +345,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.6.1_0beadf1f8a92de923667b91b5de0b700bf1899f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_f9e86dc8acad0b290bbebcd380fd979eac5fe515.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/and-nd-firebase/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.4.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -162,6 +378,15 @@
         revision="24.0.1"
         sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
         <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/and-nd-firebase/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.0_e032b78c69d149c9b124ef09d268b44a4b2dd17a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="/Users/norrisa/Documents/dev/GitHub/web251/examples/firebase/friendlychat/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.6.1_af779bcb1bcfafe5938b068bda7a26d5e2bc5e5d.jar" />
     </item>
     <item
         is-multidex="false"

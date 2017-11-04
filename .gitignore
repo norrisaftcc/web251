@@ -1,2 +1,4 @@
 .DS_Store
 examples/firebase/and-nd-firebase/
+.bin
+.jar
