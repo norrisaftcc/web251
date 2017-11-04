@@ -4,3 +4,4 @@ examples/firebase/and-nd-firebase/
 .lock
 .jar
 .idea
+cache.xml
