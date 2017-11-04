@@ -4,6 +4,8 @@
 
 udacity class
 
+note that files already under git get added as blobs in github, which is bad.
+
 from base project
 deltas to add database support 
 
