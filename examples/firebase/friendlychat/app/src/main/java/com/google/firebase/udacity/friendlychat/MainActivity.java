@@ -30,6 +30,9 @@ import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -54,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
     // firebase realtime db
     private FirebaseDatabase mFirebaseDatabase;
     private DatabaseReference mMessagesDatabaseReference;
+    private ChildEventListener mChildEventListener; // used for reading
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -124,6 +128,39 @@ public class MainActivity extends AppCompatActivity {
                 mMessageEditText.setText("");
             }
         });
+
+        // create a childeventlistener to handle updates
+        mChildEventListener = new ChildEventListener() {
+            @Override
+            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                // create a FriendlyMessage from the new data
+                FriendlyMessage friendlyMessage = dataSnapshot.getValue(FriendlyMessage.class);
+                // add to the adapter so it's seen by the user
+                mMessageAdapter.add(friendlyMessage);
+            }
+
+            @Override
+            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+
+            }
+
+            @Override
+            public void onChildRemoved(DataSnapshot dataSnapshot) {
+
+            }
+
+            @Override
+            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        };
+        // register the childeventlistener with the dbref
+        mMessagesDatabaseReference.addChildEventListener(mChildEventListener);
     }
 
     @Override

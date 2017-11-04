@@ -1,5 +1,6 @@
 .DS_Store
 examples/firebase/and-nd-firebase/
 .bin
+.lock
 .jar
 .idea
