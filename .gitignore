@@ -9,3 +9,6 @@ cache.xml
 *.lock
 *.bin
 *.lock
+*.lock
+*.bin
+*.jar
