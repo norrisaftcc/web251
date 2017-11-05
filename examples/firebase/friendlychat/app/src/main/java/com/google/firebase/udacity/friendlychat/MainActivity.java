@@ -142,48 +142,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // create a childeventlistener to handle updates
-        mChildEventListener = new ChildEventListener() {
-            @Override
-            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                // create a FriendlyMessage from the new data
-                FriendlyMessage friendlyMessage = dataSnapshot.getValue(FriendlyMessage.class);
-                // add to the adapter so it's seen by the user
-                mMessageAdapter.add(friendlyMessage);
-            }
-
-            @Override
-            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-
-            }
-
-            @Override
-            public void onChildRemoved(DataSnapshot dataSnapshot) {
-
-            }
-
-            @Override
-            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        };
-        // init various helper firebase components here, at the bottom of oncreate()
-        // register the childeventlistener with the dbref
-        mMessagesDatabaseReference.addChildEventListener(mChildEventListener);
+        // we aren't authed until after oncreate, so we move
+        // the childeventlistener setup to the helper method
+        // onSignedInInitialize()
         mAuthStateListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user != null) {
                     // user is signed in
-                    Toast.makeText(MainActivity.this, "You are signed in to FriendlyChat",Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(MainActivity.this, "You are signed in to FriendlyChat",Toast.LENGTH_SHORT).show();
+                    onSignedInInitialize(user.getDisplayName());
                 } else {
-                    // user is not signed in
+                    // user is signed out
+                    onSignedOutCleanup();
                     startActivityForResult(
                             AuthUI.getInstance()
                                 .createSignInIntentBuilder()
@@ -211,17 +183,82 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onPause() {
-        super.onPause();
-        // auth state listener should only be active when the activity is
-        mFirebaseAuth.removeAuthStateListener(mAuthStateListener);
-
-    }
-    @Override
     protected void onResume() {
         super.onResume();
         // add auth state listener when activity is active
         mFirebaseAuth.addAuthStateListener(mAuthStateListener);
+
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        // auth state listener should only be active when the activity is
+        mFirebaseAuth.removeAuthStateListener(mAuthStateListener);
+        detachDatabaseReadListener();
+        mMessageAdapter.clear();
+
+    }
+
+
+    private void onSignedInInitialize(String username) {
+        mUsername = username;
+        attachDatabaseReadListener();
+
+    }
+
+    private void onSignedOutCleanup() {
+        mUsername = ANONYMOUS;
+        mMessageAdapter.clear();
+        detachDatabaseReadListener();
+
+    }
+
+    private void attachDatabaseReadListener() {
+        if (mChildEventListener == null) {
+            // create a childeventlistener to handle updates
+            mChildEventListener = new ChildEventListener() {
+                @Override
+                public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                    // create a FriendlyMessage from the new data
+                    FriendlyMessage friendlyMessage = dataSnapshot.getValue(FriendlyMessage.class);
+                    // add to the adapter so it's seen by the user
+                    mMessageAdapter.add(friendlyMessage);
+                }
+
+                @Override
+                public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+
+                }
+
+                @Override
+                public void onChildRemoved(DataSnapshot dataSnapshot) {
+
+                }
+
+                @Override
+                public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+
+                }
+            };
+            // init various helper firebase components here, at the bottom of oncreate()
+            // register the childeventlistener with the dbref
+            mMessagesDatabaseReference.addChildEventListener(mChildEventListener);
+        }
+
+    }
+
+    private void detachDatabaseReadListener() {
+        if (mChildEventListener != null) {
+            mMessagesDatabaseReference.removeEventListener(mChildEventListener);
+            mChildEventListener = null;
+        }
+
 
     }
 }
