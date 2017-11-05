@@ -38,3 +38,7 @@ https://github.com/udacity/and-nd-firebase/compare/1.03-firebase-database-read..
 step 1.05
 https://github.com/udacity/and-nd-firebase/compare/1.04-firebase-auth-firebaseui-signin...1.05-firebase-auth-signin-signout-setup
 
+next steps: finish saturday's lessons
+handle cancelled sign in (1.0.6)
+https://github.com/udacity/and-nd-firebase/compare/1.05-firebase-auth-signin-signout-setup...1.06-firebase-auth-firebaseui-cancel
+
