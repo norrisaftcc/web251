@@ -12,3 +12,6 @@ cache.xml
 *.lock
 *.bin
 *.jar
+*.lock
+*.lock
+*.bin
