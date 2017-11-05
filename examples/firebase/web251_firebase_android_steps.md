@@ -31,3 +31,10 @@ for example:
 compile 'com.google.firebase:firebase-database:9.6.1'
 compile 'com.google.firebase:firebase-auth:9.6.1'
 compile 'com.firebaseui:firebase-ui-auth:0.6.0'
+
+add authstatelistener and attach it at the relevant points in the app lifecycle
+step 1.04 
+https://github.com/udacity/and-nd-firebase/compare/1.03-firebase-database-read...1.04-firebase-auth-firebaseui-signin
+step 1.05
+https://github.com/udacity/and-nd-firebase/compare/1.04-firebase-auth-firebaseui-signin...1.05-firebase-auth-signin-signout-setup
+
