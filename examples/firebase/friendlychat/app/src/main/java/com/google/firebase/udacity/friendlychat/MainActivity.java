@@ -223,7 +223,7 @@ public class MainActivity extends AppCompatActivity {
                     // create a FriendlyMessage from the new data
                     FriendlyMessage friendlyMessage = dataSnapshot.getValue(FriendlyMessage.class);
                     // add to the adapter so it's seen by the user
-                    mMessageAdapter.add(friendlyMessage);
+                    mMessageAdapter.add(friendlyMessage); 
                 }
 
                 @Override

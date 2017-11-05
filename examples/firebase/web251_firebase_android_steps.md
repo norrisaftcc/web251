@@ -36,5 +36,9 @@ add authstatelistener and attach it at the relevant points in the app lifecycle
 step 1.04 
 https://github.com/udacity/and-nd-firebase/compare/1.03-firebase-database-read...1.04-firebase-auth-firebaseui-signin
 step 1.05
+user is not yet logged in in oncreate, so it can't successfully pull the messages from the database. move that code and properly handle
+lifecycle issues.
 https://github.com/udacity/and-nd-firebase/compare/1.04-firebase-auth-firebaseui-signin...1.05-firebase-auth-signin-signout-setup
+
+
 
