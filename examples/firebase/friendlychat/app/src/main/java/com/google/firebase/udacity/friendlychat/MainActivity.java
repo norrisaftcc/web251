@@ -191,10 +191,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        return super.onOptionsItemSelected(item);
-    }
+
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
