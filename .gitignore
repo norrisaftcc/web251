@@ -10,3 +10,7 @@ examples/firebase/.DS_Store
 *.bin
 *.lock
 *.jar
+.DS_Store
+examples/.DS_Store
+examples/firebase/.DS_Store
+examples/firebase/and-nd-firebase/
