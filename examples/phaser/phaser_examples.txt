@@ -1,0 +1,57 @@
+# phaser notes
+
+Most of these tutorials come from Pablo Navarra (Zenva Academy and GameDev Academy).
+
+The main Phaser tutorial index at GameDev Academy is https://gamedevacademy.org/category/tutorials/html5-gamedev-phaser/
+
+Final Project Concepts
+
+Any of these concepts could be extended into a final project.
+
+To meet the web services requirement of the final project, you can incorporate your game with features such as online leaderboards, social elements, or even IAP (in-app purchases.) This can be done using publicly available libraries for Android and iOS. We will delve into this topic later on.
+
+
+
+Starting Points and Basic Phaser Features
+
+The two attached files BasicPhaser-Starter.zip and BasicPhaser-FarmAnimals.zip provide step-by-step examples of simple Phaser projects and are a good starting point to help you understand the Phaser library.
+BasicPhaser-Startup starts with some simple JavaScript code to create a few objects and gradually adds in basic Phaser functionality to build a 'cross-the-road' type game where the player moves left and right to dodge obstacles. It's worth examining as it makes it easy to find individual steps without the logic of a more complex game.
+BasicPhaser-FarmAnimals is modeled after a toddler's tablet game where you can click on farm animals to hear them make noises. Despite being simple, it includes a lot of elements such as animations, tweening (changing a sprite over time), and playing sounds.
+Between those two and the phaser.io examples, most of the simple features you may want to use are included.
+
+
+Simple Platformer (Donkey Kong clone):
+
+From the Crater.io webconference - https://www.youtube.com/watch?v=iQPvLuXpaMk&t=435s
+
+GitHub with starting project and assets: https://github.com/fariazz/phaser-craterconf2016 
+
+The attached Platformer.zip file includes the completed project.
+
+The file PlatformerComplex.zip takes this in a different direction, more of a Super Mario Bros. type of game.
+
+
+
+
+
+Top Down Shooter (Asteroids clone) - https://gamedevacademy.org/html5-phaser-tutorial-spacehipster-a-space-exploration-game/
+
+Videos and GitHub tutorial are included in the article.
+
+The attached SpaceShooter.zip continues this project, using touch controls.
+
+
+
+Top Down Adventure Game
+
+This sets up a simple tile-based top-down game (like the original Legend of Zelda). 
+
+https://gamedevacademy.org/html5-phaser-tutorial-top-down-games-with-tiled/
+
+
+
+
+
+Infinite Runner
+
+GitHub repo: https://github.com/fariazz/phaser-infinite-runner
